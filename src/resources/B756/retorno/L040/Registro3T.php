@@ -1,6 +1,6 @@
 <?php
 /*
- * CnabPHP - Geração de arquivos de remessa e retorno em PHP
+ * CnabPHP - Geraï¿½ï¿½o de arquivos de remessa e retorno em PHP
  *
  * LICENSE: The MIT License (MIT)
  *
@@ -23,7 +23,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-namespace CnabPHP\resources\B341\retorno\L040;
+namespace CnabPHP\resources\B756\retorno\L040;
 use CnabPHP\resources\generico\retorno\L040\Generico3;
 use CnabPHP\RetornoAbstract;
 use CnabPHP\Exception;
@@ -67,7 +67,7 @@ class Registro3T extends Generico3
 			'tipo'=>'int',
 			'required'=>true),
 			
-		// - ------------------ até aqui é igual para todo registro tipo 3
+		// - ------------------ atï¿½ aqui ï¿½ igual para todo registro tipo 3
 
         'filler1'=>array(               // 11.3P
             'tamanho'=>1,

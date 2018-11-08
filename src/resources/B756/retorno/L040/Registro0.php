@@ -1,6 +1,6 @@
 <?php
 /*
-* CnabPHP - Geração de arquivos de remessa e retorno em PHP
+* CnabPHP - Geraï¿½ï¿½o de arquivos de remessa e retorno em PHP
 *
 * LICENSE: The MIT License (MIT)
 *
@@ -23,7 +23,7 @@
 * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-namespace CnabPHP\resources\B341\retorno\L040; // SIGCB
+namespace CnabPHP\resources\B756\retorno\L040; // SIGCB
 use CnabPHP\resources\generico\retorno\L040\Generico0;
 use CnabPHP\RetornoAbstract;
 

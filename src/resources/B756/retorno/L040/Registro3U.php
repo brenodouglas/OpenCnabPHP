@@ -1,6 +1,6 @@
 <?php
 /*
- * CnabPHP - Geração de arquivos de remessa e retorno em PHP
+ * CnabPHP - Geraï¿½ï¿½o de arquivos de remessa e retorno em PHP
  *
  * LICENSE: The MIT License (MIT)
  *
@@ -23,7 +23,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-namespace CnabPHP\resources\B341\retorno\L040;
+namespace CnabPHP\resources\B756\retorno\L040;
 use CnabPHP\resources\generico\retorno\L040\Generico3;
 //use CnabPHP\RetornoAbstract;
 use CnabPHP\Exception;
@@ -67,7 +67,7 @@ class Registro3U extends Generico3
 			'tipo'=>'int',
 			'required'=>true),
 			
-			// - ------------------ até aqui é igual para todo registro tipo 3
+			// - ------------------ atï¿½ aqui ï¿½ igual para todo registro tipo 3
 			
 		'vlr_juros_multa'=>array(               // 8.3Q
 			'tamanho'=>13,
@@ -117,7 +117,7 @@ class Registro3U extends Generico3
 			'required'=>true),
 		'data_credito'=>array(      //16.3Q
 			'tamanho'=>8,
-			'default'=>'',  // combrança com registro
+			'default'=>'',  // combranï¿½a com registro
 			'tipo'=>'date',
 			'required'=>true),
 		'ocorrencia_pagador'=>array(        //17.3Q
@@ -141,9 +141,9 @@ class Registro3U extends Generico3
 			'default'=>' ',
 			'tipo'=>'alfa',
 			'required'=>true),
-		'filler4'=>array(            //19.3Q   Campo de preenchimento obrigatório; preencher com Seu Número de controle do título
+		'filler4'=>array(            //19.3Q   Campo de preenchimento obrigatï¿½rio; preencher com Seu Nï¿½mero de controle do tï¿½tulo
 			'tamanho'=>23,
-			'default'=>' ', // este espaço foi colocado para passa a validação para os seters do generico
+			'default'=>' ', // este espaï¿½o foi colocado para passa a validaï¿½ï¿½o para os seters do generico
 			'tipo'=>'alfa',
 			'required'=>true),
 		'filler5'=>array(               //19.3Q
